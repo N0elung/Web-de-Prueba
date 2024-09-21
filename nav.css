@@ -25,3 +25,16 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
 }
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  div.example {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
