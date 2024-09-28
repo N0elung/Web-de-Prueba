@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="nav.css"/>
+    <link rel="stylesheet" href="hero.css"/>
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="Galeria.css">
     <script src="NavMobile.js"></script>
+    
   </head>
   <body>
     <ul>
@@ -32,6 +36,50 @@
         <p>Esta es una página de prueba</p>
       </div>
     </div>
+
+    
+    <div class="GridContainer">
+      <div class="Texto">
+        <h1>Lorem, ipsum dolor.</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ea nesciunt dicta dolorum voluptatibus nam atque eius incidunt molestias, consectetur, deleniti architecto minus eveniet dolorem aliquid, cum perferendis repellendus ut libero? Distinctio quasi iure aut accusamus doloremque, voluptatem ullam nulla quod, delectus ut consequuntur modi enim, esse id dolorem eaque.
+      </p>
+      </div>
+      <div class="Imagen">
+          <img src="https://picsum.photos/400/500">
+      </div>
+    </div>
+
+    <div class="Gallery">
+      <div class="Foto">
+          <img src="https://picsum.photos/200/150" alt="Cinque Terre">
+          <div class="desc">Add a description of the image here</div>
+      </div>
+      <div class="Foto">
+          <img src="https://picsum.photos/200/150" alt="Cinque Terre">
+          <div class="desc">Add a description of the image here</div>
+      </div>
+      <div class="Foto">
+          <img src="https://picsum.photos/200/150" alt="Cinque Terre">
+          <div class="desc">Add a description of the image here</div>
+      </div>
+      <div class="Foto">
+          <img src="https://picsum.photos/200/150" alt="Cinque Terre">
+          <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+    <div class="Footer">
+        <footer>
+          <h1 style="text-align: center;">Noel Beltran Davalos &copy; <span id="year">2022</span> </h1>
+        </footer>
+    </div>
+
+    <script> 
+      const d = new Date();
+      let year = d.getFullYear();
+      document.getElementById("year").innerHTML = year;
+    </script>
 
   </body>
 </html>

@@ -1,11 +1,23 @@
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("GatoRatero.jpg");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+  /* Background image */
+  background-image: url('GatoRatero.jpg');
+  
+  /* Full height */
+  height: 100vh;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Add a parallax scrolling effect */
+  background-attachment: fixed;
+  
+  /* Flexbox to center the content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .hero-text {
     text-align: center;

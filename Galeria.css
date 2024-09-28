@@ -1,0 +1,12 @@
+.Gallery {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+    padding: 20px;
+}
+.Foto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
